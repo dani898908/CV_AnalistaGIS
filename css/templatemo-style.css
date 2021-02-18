@@ -1050,15 +1050,15 @@ header {
 
 }
 /* FOTO Y IMGRIS Style */
-
-
-
-
+#top{
+  margin-top: 0px
+}
 .wrapperP {
   width: 1%;
   padding: 0 2rem;
   text-align: center;
   margin-left: 500px;
+
 }
 .polaroid {
   background: #fff;
@@ -1079,12 +1079,14 @@ header {
   display: inline-block;
   margin-top: 2rem;
   filter: grayscale(100%);
+
 }
 .itemP .polaroid:before {
   content: '';
   position: absolute;
   z-index: -1;
   transition: all 0.35s;
+  
 }
 .itemP:nth-of-type(4n+1) {
   transform: scale(0.8, 0.8) rotate(5deg);
@@ -1138,6 +1140,7 @@ header {
   filter: none;
   transform: scale(1, 1) rotate(0deg) !important;
   transition: all 0.35s;
+
 }
 .itemP:hover .polaroid:before {
   content: '';
@@ -1159,8 +1162,6 @@ header {
   width: 100%;
 }
 
-
-
 .polaroid p {
   color: #888;
   font: 500 18px/22px Arial, sans-serif;
@@ -1168,6 +1169,7 @@ header {
   bottom: 0;
   text-align: center;
   width: 100%;
+
 }
 .embed-container 
 {position: relative;
