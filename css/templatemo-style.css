@@ -1190,3 +1190,14 @@ small{
    bottom: 0; 
 
   }
+
+  .strip{
+    margin-left: 350px;
+    font-size: 15px;
+  }
+p.italic {
+ 
+  font-style: italic;
+  margin-left: 350px;
+  margin-top: 50px;
+}

@@ -20,6 +20,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
   <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -109,6 +110,7 @@
 
   <div>
     <div class="Modern-Slider content-section" id="top">
+      
       <div class="wrapperP">
 
         <div class="itemP">
@@ -118,7 +120,21 @@
           </div>
         </div>
       </div>
-</div>
+      <div class="slg">
+        <h1 class="strip">
+          ❝ Trabaja duro y</br>
+          crea cosas asombrosas ❞
+        </h1> 
+        <p class="italic">Ingeniera geógrafa y ambiental con 2 años de experiencia 
+          en el desarrollo de Aplicaciones web Mapping, informes ambientales, AMC y 
+          análista GIS de equipos de trabajo con una alta exigencia en términos de presupuesto, 
+          plazo y ejecución. Me considero una persona comprometida y que trata de estar a la
+           vanguardia de los avances y novedades.</p>
+        
+      </div>
+      
+    </div>
+         
 
       <div class="page-content">
         <section id="featured" class="content-section">
@@ -288,10 +304,10 @@
               type: 'bar',
               data: {
                   labels: ['JavaScript', 'Python', 'PHP',  'Css/Html', 'React.js','Django','PostgreSQL','GIT/GitHub/ Heroku',
-                  'Google Analytics', 'Api ArcGis JavaScript/Python','ArcGis Pro', 'ArcMap','ArcGis Online' ],
+                  'Google Analytics', 'Api ArcGis JavaScript/Python','Análisis Espacial','Qgis','ArcGis Pro', 'ArcMap','ArcGis Online' ],
                   datasets: [{
                       label: 'Skills',
-                      data: [7.5, 5.0, 3.0, 9.0, 6.5, 5.0,5.0 , 8.5, 7.0, 7.5, 10, 10, 10],
+                      data: [7.5, 5.0, 3.0, 9.0, 6.5, 5.0,5.0 , 8.5, 7.0, 7.5, 8.0, 10, 10, 10],
                       borderWidth: 1,
                       hoverBackgroundColor:'purple'
                       
@@ -546,6 +562,37 @@
       lastScrollTop = st;
     }
   </script>
+  <script>
+    $('.strip').each(function(){
+var $t = $(this),
+rows = $.trim($t.html()).split('<br>');
+
+$t.html('');
+
+$.each(rows, function(i, val){
+$('<span class="row"></span>').appendTo($t);
+
+var letters = $.trim(val).split('');
+
+$.each(letters, function(j, v){
+v = (v == ' ') ? '&nbsp;' : v;
+$('<span>' + $.trim(v) + '</span>').appendTo($('.row:last', $t));
+});
+
+});
+});
+
+$('body').click(function(){
+for (i = 0; i < $('.strip span').length; i++) {
+(function(ind) {
+setTimeout(function(){
+$('.strip span:not(".row")').eq(ind).toggleClass('animate');
+}, ind * 15);
+})(i);
+}
+}).click();
+
+</script>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
  
