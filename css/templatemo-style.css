@@ -1201,3 +1201,39 @@ p.italic {
   margin-left: 350px;
   margin-top: 50px;
 }
+/*jupyter notebook*/
+.output_wrapper{
+  margin-left: 200px;
+}
+#notebook-container{
+  margin-left: 350px;
+}
+pre {
+  width: 65%;
+}
+.section-heading1{
+  margin-left: 350px;
+  font-style: normal;
+
+  color: #45489a;
+ 
+  font-size: 15px;
+  line-height: 26px;
+  color: #343434;
+
+  top: 12.5px;
+}
+.section-heading1 em {
+  font-style: normal;
+  font-weight: 700;
+  color: #45489a;
+}
+
+.section-heading1 p {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 26px;
+  color: #343434;
+  
+  top: 12.5px;
+}
