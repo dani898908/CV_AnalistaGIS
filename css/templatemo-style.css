@@ -1186,16 +1186,21 @@ height: 367px;
 
 }
 .embed-container 
-{position: relative;
+{
+  position: relative;
    height: 0; 
    padding-bottom:5%; 
-   max-width: 60%;} 
+   max-width: 60%;
+   top: 15px; 
+   left: -100px;
+  } 
+ 
 .embed-container iframe, 
 .embed-container object, 
 .embed-container iframe{
   position: absolute;
-   top: 0; 
-   left: 900px; 
+   top: 15px; 
+   left: 200px; 
    width: 80%; 
    height: 20%;} 
 small{
