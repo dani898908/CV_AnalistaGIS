@@ -22,7 +22,7 @@ p {
 }
 
 .content-section {
-  padding-top: 10vw;
+  padding-top: 3vw;
   position: relative;
   width: 90vw;
   display: inline-block;
@@ -316,9 +316,9 @@ header {
 
 .slider .content-section {
   padding-top: 0px;
-  min-width: 100%;
+  min-width: 100vw;
   min-height: 100vh;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   text-align: center;
 }
@@ -406,7 +406,7 @@ header {
 }
 
 .Modern-Slider .item .image {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-position: center center;
   background-size: cover;
@@ -1068,14 +1068,12 @@ display: block;
 
 }
 /* FOTO Y IMGRIS Style */
-#top{
-  margin-top: 0vw;
-}
+
 .wrapperP {
-  width: 1vw;
+  width: 2vw;
   padding: 0 2rem;
   text-align: center;
-  margin-left: 50vw;
+  margin-left: 2vw;
 
 }
 .polaroid {
@@ -1086,14 +1084,15 @@ display: block;
 }
 
 .caption {
-  font-size: 1.8rem;
+  font-size: 1.5vw;
   text-align: center;
-  line-height: 2em;
+  line-height: 2.3vw;
+  margin-top: 3vw;
   
 }
 .itemP {
-  width: 30vw;
-  height: 20vw;
+  width: 20vw;
+  height: 8vw;
   display: inline-block;
   margin-top: 2rem;
   filter: grayscale(100%);
@@ -1175,18 +1174,36 @@ display: block;
 
 .polaroid {
   display: inline-block;
-  margin: 10px;
+  margin: 1vw;
   position: relative;
-  width: 100%;
-}
+  width: 30vw;
+  height:20vw;
 
+
+}
+div .polaroid{
+  width: 25vw;
+  height:30vw;
+  margin-left:30vw;
+  margin-top:5vw;
+ 
+}
+#Library{
+  width: 20vw;
+  height: 28vw;
+
+}
+ div.wrapperP.slick-slide.slick-current.slick-active {
+  width: 30vw;
+ 
+}
 .polaroid p {
   color: #888;
   font: 500 18px/22px Arial, sans-serif;
   position: absolute;
   bottom: 0;
   text-align: center;
-  width: 100%;
+  width: 100vw;
 
 }
 .slg{
@@ -1225,9 +1242,12 @@ small{
 p.italic {
  
   font-style: italic;
-  margin-left: 18vw;
-  margin-top: 15vw;
+  margin-left: 20vw;
+  margin-top: 8vw;
   width:40vw;
+  font-size: 1.8vw;
+  line-height:2.3vw;
+
 }
 /*jupyter notebook*/
 .output_wrapper{
