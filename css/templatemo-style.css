@@ -22,12 +22,12 @@ p {
 }
 
 .content-section {
-  padding-top: 80px;
+  padding-top: 10vw;
   position: relative;
-  width: 100%;
+  width: 90vw;
   display: inline-block;
   height: auto;
-  left: 50%;
+  left: 50vw;
   text-align: center;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
@@ -457,9 +457,9 @@ header {
 /* Featured Style */
 
 #featured {
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-bottom: 80px;
+  padding-left:18vw;
+  padding-right:8vw;
+  padding-bottom: 2vw;
   border-bottom: 1px solid #eee;
 }
 
@@ -624,45 +624,50 @@ header {
 #grafico {
   text-align: center;
   background-color: #f4f4f4;
-  padding: 80px 60px;
+  padding: 0vw 5vw;
+  left:55vw;
+
 }
 
 #grafico .section-heading {
-  margin-bottom: 30px;
+  margin-bottom: 1vw;
   text-align: center;
+  margin-top: 10vw;
 }
 
 #grafico .section-heading h1 {
   display: block;
-  margin: 0px;
+  margin-top: 3vw;
+  margin-left: 2vw;
 }
 
 #grafico .section-heading p {
   position: relative;
-  margin: 0px;
-  margin-left: 300px;
+  margin-top: 2vw;
+  margin-left: 3vw;
+  margin-bottom: 2vw;
 }
 
 #grafico .accent-button {
-  margin-top: 30px;
+  margin-top: 10vw;
 }
 
 .box-grafico{
-  width: 100%;
-  height: 50;
+  width: 60vw;
+  height: 50vw;
   position: relative;
-  margin-top: 30px;
+  margin-top: 10vw;
   cursor: pointer;
   overflow: hidden;
-  margin-left: 300px;
+  margin-left: 10vw;
 }
 
 .box-grafico .bg-grafico{
   position: absolute;
   top: 0;
   left: 0;
-  width: 90%;
-  height: 50%;
+  width: 20vw;
+  height: 50vw;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -673,7 +678,7 @@ header {
 .box-grafico .grafico-container{
   position: relative;
   margin: 0;
-  height: 50%;
+  height: 50vw;
   z-index: 1;
 }
 
@@ -692,7 +697,7 @@ header {
 }
 
 #myChart{
-  width: 70%;
+  width: 60vw;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 font-size: 14px;
 line-height: 1.42857143;
@@ -703,8 +708,7 @@ cursor: pointer;
 box-sizing: border-box;
 vertical-align: baseline;
 display: block;
-width: 100%;
-height: 367px;
+
 }
 
 
@@ -837,8 +841,8 @@ height: 367px;
 }
 
 #contact-content {
-  padding: 80px 60px;
-  margin-left: 300px;
+  padding: 1vw 2vw;
+  margin-left: 20vw;
 }
 
 #contact input {
@@ -1065,18 +1069,18 @@ height: 367px;
 }
 /* FOTO Y IMGRIS Style */
 #top{
-  margin-top: 0px
+  margin-top: 0vw;
 }
 .wrapperP {
-  width: 1%;
+  width: 1vw;
   padding: 0 2rem;
   text-align: center;
-  margin-left: 500px;
+  margin-left: 50vw;
 
 }
 .polaroid {
   background: #fff;
-  padding: 1rem;
+  padding: 1vw;
   box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
 
 }
@@ -1088,8 +1092,8 @@ height: 367px;
   
 }
 .itemP {
-  width: 50%;
-  height: 110%;
+  width: 30vw;
+  height: 20vw;
   display: inline-block;
   margin-top: 2rem;
   filter: grayscale(100%);
@@ -1185,6 +1189,10 @@ height: 367px;
   width: 100%;
 
 }
+.slg{
+  width:80vw
+}
+/*survey123*/
 .embed-container 
 {
   position: relative;
@@ -1217,29 +1225,28 @@ small{
 p.italic {
  
   font-style: italic;
-  margin-left: 350px;
-  margin-top: 50px;
+  margin-left: 18vw;
+  margin-top: 15vw;
+  width:40vw;
 }
 /*jupyter notebook*/
 .output_wrapper{
-  margin-left: 200px;
+  margin-left: 20vw;
 }
 #notebook-container{
-  margin-left: 350px;
+  margin-left: 18vw;
 }
 pre {
-  width: 65%;
+  width: 30vw;
 }
 .section-heading1{
-  margin-left: 350px;
+  margin-left: 30vw;
+  margin-bottom: 2vw;
   font-style: normal;
-
   color: #45489a;
- 
   font-size: 15px;
   line-height: 26px;
   color: #343434;
-
   top: 12.5px;
 }
 .section-heading1 em {
@@ -1255,4 +1262,11 @@ pre {
   color: #343434;
   
   top: 12.5px;
+}
+#contenedor__1{
+  width: 8vw;
+  left:100vw;
+}
+#contenedor__2{
+  width: 40vw;
 }
